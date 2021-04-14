@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Yet Another Link Shortner</title>
+        <title>Saim's Link Shortener</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
@@ -80,10 +80,7 @@ export default function Home() {
                     },
                   ]}
                 >
-                  <Input
-                    placeholder="https://my-super-long-link.com/blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah-blah"
-                    size="large"
-                  />
+                  <Input placeholder="Paste The Url Here" size="large" />
                 </Form.Item>
               </div>
               <div className={styles.linkFieldButton}>
@@ -110,7 +107,7 @@ export default function Home() {
         </div>
       </Content>
       <Footer className={styles.footer}>
-        Yet Another Link Shortener (YALS) &copy; 2021
+        Saim's Link Shortener &copy; 2021
       </Footer>
     </Layout>
   );
